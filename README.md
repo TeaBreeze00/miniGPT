@@ -1,6 +1,6 @@
 # miniGPT Web Interface
 
-This project provides a web interface for text generation inspired by the miniGPT character-level RNN model. It allows users to enter a prompt and receive generated text continuations.
+A character-level RNN language model implemented in PyTorch that learns to generate text one character at a time. The model uses LSTM layers to capture sequential patterns in text data, with customizable embedding dimensions and hidden layers. Includes a complete training pipeline with data preparation, tokenization, and model checkpointing. The repository also features a simple Next.js web interface for interacting with the trained model, allowing users to input prompts and receive AI-generated text completions.
 
 ## Important Note
 
